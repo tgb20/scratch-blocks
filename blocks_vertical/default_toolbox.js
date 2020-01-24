@@ -448,49 +448,6 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="operator_and" id="operator_and"></block>' +
     '<block type="operator_or" id="operator_or"></block>' +
     '<block type="operator_not" id="operator_not"></block>' +
-    '<block type="operator_join" id="operator_join">' +
-      '<value name="STRING1">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">hello</field>' +
-        '</shadow>' +
-      '</value>' +
-      '<value name="STRING2">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
-        '</shadow>' +
-      '</value>' +
-    '</block>' +
-    '<block type="operator_letter_of" id="operator_letter_of">' +
-      '<value name="LETTER">' +
-        '<shadow type="math_whole_number">' +
-          '<field name="NUM">1</field>' +
-        '</shadow>' +
-      '</value>' +
-      '<value name="STRING">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
-        '</shadow>' +
-      '</value>' +
-    '</block>' +
-    '<block type="operator_length" id="operator_length">' +
-      '<value name="STRING">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
-        '</shadow>' +
-      '</value>' +
-    '</block>' +
-    '<block type="operator_contains" id="operator_contains">' +
-      '<value name="STRING1">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">hello</field>' +
-        '</shadow>' +
-      '</value>' +
-      '<value name="STRING2">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
-        '</shadow>' +
-      '</value>' +
-    '</block>' +
     '<block type="operator_mod" id="operator_mod">' +
       '<value name="NUM1">' +
         '<shadow type="math_number">' +
@@ -519,7 +476,5 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>' +
   '</category>' +
   '<category name="%{BKY_CATEGORY_VARIABLES}" id="data" colour="#FF8C1A" secondaryColour="#DB6E00" custom="VARIABLE">' +
-  '</category>' +
-  '<category name="%{BKY_CATEGORY_MYBLOCKS}" id="more" colour="#FF6680" secondaryColour="#FF4D6A" custom="PROCEDURE">' +
   '</category>' +
   '</xml>';
